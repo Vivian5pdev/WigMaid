@@ -84,13 +84,12 @@ h4 {
 }
 
 .active {
-    border-bottom: 1px solid #be2ed6;
+    border-bottom: 1px solid #d62eac;
 }
 
 
     
 
-/* visited link, copied from stack overflow */
 a:visited {
     color: green;
   }
@@ -102,7 +101,7 @@ a:visited {
   
   /* purple color for active link */
   a:active {
-    color: #be2ed6;
+    color: #2ed674;
   }
 
 
@@ -227,7 +226,6 @@ body {
   /*  background-color: black;*/
     font-weight: bold;
       background: url('assets/images/about img.jpg') no-repeat center/cover;
-      opacity: 0.4;
       display: flex;
       flex-wrap: wrap;
       padding: 15px;
@@ -238,32 +236,37 @@ body {
     }
 
 #abouUs {
-    background: url('assets/images/about img.jpg') no-repeat center/cover;
-     opacity: 0.4;
-    display: flex;
+   /* background: url('assets/images/about img.jpg') no-repeat center/cover; */
+     display: flex;
     flex-wrap: wrap;
-    font-weight: bold;
-     
+         
 }
 
 #aboutUs div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
+    color: hwb(351 0% 91%);
+    font-weight: bolder;
+    background-color: rgba(241, 23, 151, 0.6);
     padding: 15px;
     text-align: center;
-    /* From Love Running, this will not wrap on screens of less than 400px wide.
-    Each div will expand to fill the available space on its row */
+    /* from P1 project */
     flex-basis: 200px;
     flex-grow: 1;
-    /* Creates a grid of meetup time divs over the background image */
-    border: 2px solid white;
+    /* Creates a grid of about us and contact divs over contrasting background colour */
+    border: 2px solid rgb(233, 238, 238);
 }
 
 #aboutUs h3 {
     /* Override the heading colour set in general styles */
-    color: #fafafa;
+    color: #131212;
 }
 
+#aboutUs p {
+    color: blackest black;
+    font-size: large;
+    font-weight: bold;
+    stop-opacity: initial;
+    
+}
 
 
 #order{
@@ -286,6 +289,10 @@ body {
      
   }
 
+  footer {
+    background-color:azure;
+    
+          }
  
 
 
@@ -293,7 +300,7 @@ body {
  /* FAQ*/
  #faq{
     background: url(assets/images/wig-faq.jpg) no-repeat top center/cover;
-    height: 700vw;
+   /* height: 700vw; */
     width: 100%;
     margin: 20px;
     
@@ -330,7 +337,7 @@ main {
   
  
     /* Form */
-    #signup {
+    #register {
         background-image: url("../images/signup-image.webp"); 
         background-size: cover;
         background-position: 75%;
