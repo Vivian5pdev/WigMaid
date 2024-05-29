@@ -41,8 +41,8 @@ header {
     align-items: baseline;
 }
 logo {position: absolute;
-    top: 100
-    bottom: 20px
+    top: 10
+    bottom: 10px
 
 }
 
