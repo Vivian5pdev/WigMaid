@@ -379,7 +379,27 @@ main {
     }
     
 
-
+    #order {
+        width: 100%;
+        margin-top: 100px;
+        padding-top: 50px;
+       }
+    
+       #measure {
+        width: 100%;
+        margin-top: 100px;
+        padding-top: 50px;
+       }
+    
+       
+    
+       
+    
+       #faq {
+        width: 100%;
+        margin-top: 100px;
+        padding-top: 50px;
+       }
 
 
 
@@ -472,36 +492,23 @@ main {
    
 
 
- /*Gallery*/
-#gallery-header {
-    background-color: wheat;
-/* background: url(assets/images/bunch-for-gallery.jpg) no-repeat top center/cover; */
-height: 10vw;
+ /*measure*/
+#measure {
+   height: 10vw;
 width: 100%;
 margin: 0px;
-opacity: 0.5;
 }   
 
-#photos img {
-    width: 100%;
-    line-height: 1em;
-}
 
-    /* Gallery */
-    #photos {
-        column-count: 3;
-    }
+
+    
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    /* Gallery */
-    #photos {
-        column-count: 4;
-    }
-}
+    
 
 @media screen and (min-width: 1200px) {    
     /* Reasons section */
@@ -531,7 +538,7 @@ opacity: 0.5;
     }
 }
 
-#times div {
+#about div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
@@ -544,20 +551,15 @@ opacity: 0.5;
     border: 2px solid white;
 }
 
-#times h3 {
+#aboutUs h3 {
     /* Override the heading colour set in general styles */
     color: #fafafa;
 }
 
-/* Gallery page */
-#photos img {
-    width: 100%;
-    line-height: 1em;
-}
 
-#photos {
-    line-height: 0;
-}
+
+
+
 
 /* Footer */
 #social-networks {
@@ -615,14 +617,30 @@ opacity: 0.5;
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 79px;
+        margin-top: 47px;
     }
 
-    /* Hero */
-    #cover-text {
-        width: 300px;
-        right: 50px;
-    }
+   #order {
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 50px;
+   }
+
+   #measure {
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 50px;
+   }
+
+   
+
+   
+
+   #faq {
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 50px;
+   }
 
     /* Reasons section */
     #benefits-physical,
